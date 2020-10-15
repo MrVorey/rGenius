@@ -1,0 +1,621 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body, html { 
+    width: 100%;
+    height: 100%;
+}
+body {
+    line-height: 1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.header{
+    
+    width: 100%;
+    max-height: 160px;
+    min-height: 80px;
+    background: linear-gradient(rgb(207, 207, 197), rgb(255, 255 ,255));
+    color: black;
+    
+    
+}
+
+.wrap{
+    
+    
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.nav2{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: auto;
+    align-items: center;
+    margin: 50px;
+    width: 400px;
+}
+.navlogo{
+
+    width: 400px;
+    align-items: center;
+    min-width: 100px;
+}
+.messageimg{
+    width: 30px;
+    height: 20px;
+
+}
+.nav1{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin: 50px;
+    width: 400px;
+}
+.vk{
+    width: 200px;
+    height: 50px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+
+}
+.main a{
+    margin: 20px;
+    border-style: inset;
+    border-color: black;
+    border-width: 2px;
+    max-height: 300px;
+    max-width: 300px;
+
+}
+.main1{
+    background: linear-gradient( rgb(255, 255 ,255),rgb(207, 207, 197));
+    min-height: 200px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    
+}
+.main2{
+    background: linear-gradient( rgb(207, 207, 197), rgb(255, 255 ,255));
+    min-height: 200px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    flex-wrap: wrap;
+}
+.choice{
+    margin-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.classes{
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    min-height: 200px;
+    max-height: 300px;
+    color:black;
+    padding: 20px;
+    
+    background: linear-gradient( rgb(207, 207, 197), rgb(255, 255 ,255), rgb(207, 207, 197));
+}
+.phiz{
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    box-shadow: none;
+    width: 50%;
+    margin:1%;
+    float: left;
+    min-width: 300px;
+}
+
+.news{
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    box-shadow: none;
+    width: 50%;
+    margin:1%;
+    float: left;
+    min-width: 300px;
+
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    max-height: 160px;
+    min-height: 80px;
+    margin-left: 1%;
+}
+.hz{
+    display: flex;
+    vertical-align: middle;
+    margin: 1%;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    box-shadow: none;
+    min-width: 300px;
+}
+
+.rusimg{
+    border-style: inset;
+    border-color: black;
+    border-width: 2px;
+    margin: 15px;
+    width: 250px;
+    height: 150px;
+}
+.mathimg{
+    border-style: inset;
+    border-color: black;
+    border-width: 2px;
+    margin: 15px;
+    width: 250px;
+    height: 150px;
+}
+.infimg{
+    border-style: inset;
+    border-color: black;
+    border-width: 2px;
+    margin: 15px;
+    width: 250px;
+    height: 150px;
+}
+.phisimg{
+    border-style: inset;
+    border-color: black;
+    border-width: 2px;
+    margin: 15px;
+    width: 250px;
+    height: 150px;
+}
+.himimg{
+    border-style: inset;
+    border-color: black;
+    border-width: 2px;
+    margin: 15px;
+    width: 250px;
+    height: 150px;
+}
+.litraimg{
+    border-style: inset;
+    border-color: black;
+    border-width: 2px;
+    margin: 15px;
+    width: 250px;
+    height: 150px;
+}
+.geogimg{
+    border-style: inset;
+    border-color: black;
+    border-width: 2px;
+    margin: 15px;
+    width: 250px;
+    height: 150px;
+}
+.hisimg{
+    border-style: inset;
+    border-color: black;
+    border-width: 2px;
+    margin: 15px;
+    width: 250px;
+    height: 150px;
+}
+.obshimg{
+    border-style: inset;
+    border-color: black;
+    border-width: 2px;
+    margin: 15px;
+    width: 250px;
+    height: 150px;
+}
+.bioimg{
+    border-style: inset;
+    border-color: black;
+    border-width: 2px;
+    margin: 15px;
+    width: 250px;
+    height: 150px;
+}
+.engimg{
+    border-style: inset;
+    border-color: black;
+    border-width: 2px;
+    margin: 15px;
+    width: 250px;
+    height: 150px;
+}
+.cultimg{
+    border-style: inset;
+    border-color: black;
+    border-width: 2px;
+    margin: 15px;
+    width: 250px;
+    height: 150px;
+}
+.main1 figcaption{
+    justify-content: center;
+    display: flex;
+    vertical-align: middle;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+.main2 figcaption{
+    justify-content: center;
+    display: flex;
+    vertical-align: middle;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+.vk{
+    width: 200px;
+    height: 50px;
+}
+.vkimg{
+    width: 100%;
+    height: 100%;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 1200;
+  color: #524f4e;
+  vertical-align: middle;
+    align-items: center;
+  
+  transition: .3s;
+}
+a:hover {
+  
+  
+  color: rgb(255, 0, 0);
+  transform: translateY(-7px);
+}
+.Button{
+    
+    float: right;
+    right: 1%;
+}
+/* auth */
+input[type="text"],input[type="password"]{
+    width: 300px;
+    height:50px;
+    font-size: 18px;
+    margin-bottom: 25px;
+    border-radius: 4px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+}
+input[type="text"]:hover,input[type="password"]:hover{
+    box-shadow: 0 0 6px 3px rgba(58, 219, 253, 0.35);
+} 
+input[type="submit"]{
+    width: 110px;
+    height: 50px;
+    margin-left: 30px;
+} 
+input[type="submit"]:hover{
+    transition: all 0.5s;
+ background: rgb(207, 207, 187);
+ 
+}
+.vhod{
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.label[for="checkbox"]{
+    font-family: 'Montserrat', sans-serif;
+}
+.login-form{
+    margin-top: 50px;
+    font-size: 18px;
+    margin-bottom: 25px;
+    border-radius: 4px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.reg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+/*profile*/
+.photo{
+    width: 300px;
+    height: 300px;
+    margin-top: 10px;
+    
+}
+.photoimg{
+    width: 300px;
+    height: 300px;
+    border-style: inset;
+    border-color: black;
+    border-width: 2px;
+}
+.profile{
+    border-style: inset;
+    border-color: black;
+    border-width: 2px;
+    
+    margin: 10%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.login{
+    margin: 10px;
+    min-width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    
+}
+.name{
+    margin: 10px;
+    min-width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    
+}
+.role{
+    margin: 10px;
+    min-width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.rait{
+    margin: 10px;
+    min-width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.subscription{
+    margin: 10px;
+    min-width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.vihod{
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.edit{
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.tests{
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.mainprofile{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.buy{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 15px;
+}
+.buybutton{
+    margin-left: 15px;
+}
+/*profile_edit*/
+.chisto_po_prikolu_net_ne_pashalka{
+    display: flex;
+    flex-direction: row;
+
+}
+.profile_edit_input{
+    width: 100%;
+    margin: 60px;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.profile_edit_input input[type="text"]{
+    min-width: 100px;
+    width: 100%;
+}
+.profile_edit{
+    margin: 60px;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.photo_edit input[type="text"]{
+    width: 500px;
+    
+    margin-bottom: 0;
+}
+.profile_edit_input input[type="submit"]{
+    
+    margin-top: 75px;
+    margin-bottom: 0;
+}
+.photo_edit{
+    margin:10px;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: row;
+}
+.editimg{
+    display: flex;
+    margin-left: 40px;
+    width: 60%;
+}
+.login_edit{
+    margin: 10px;
+    min-width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    
+}
+.name_edit input[type="text"]{
+    width: 500px;
+    
+    margin-bottom: 0;
+}
+.name_edit{
+    margin: 10px;
+    min-width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    
+}
+.vvod{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.vvod_image{
+    
+}
+.vvod_name{
+    margin-top: 250px;
+    display: flex;
+    flex-direction: row;
+}
+
+.role_edit{
+    margin: 10px;
+    min-width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.rait_edit{
+    margin: 10px;
+    min-width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.subscription_edit{
+    margin: 10px;
+    min-width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+/*contacts*/
+.formain{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    min-height: 200px;
+}
+.maincontacts1{
+display: flex;
+width: 50%;
+align-items: flex-start;
+justify-content: center;
+font-family: 'Montserrat', sans-serif;
+}
+.maincontacts2{
+display: flex;
+width: 50%;
+align-items: flex-start;
+justify-content: center;
+font-family: 'Montserrat', sans-serif;
+
+}
+.kolobok{
+    margin: 50px;
+}
